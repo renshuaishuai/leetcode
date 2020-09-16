@@ -26,9 +26,8 @@ package com.natsu.leetcode;
  */
 public class LeetCode226 {
     public static TreeNode invertTree(TreeNode root) {
-        TreeNode result = root;
-        invert(result);
-        return result;
+        invert(root);
+        return root;
     }
 
     private static void invert(TreeNode node) {
