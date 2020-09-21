@@ -13,7 +13,8 @@ import java.util.Deque;
 public class LeetCode538 {
 
     /**
-     * 先中序遍历,再累加
+     * 先中序遍历压栈
+     * 再出栈累加
      *
      * @param root
      * @return
